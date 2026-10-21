@@ -1,0 +1,213 @@
+{
+  "dataset": "Junyi Academy Math Practicing Log, January 2015 release",
+  "method": "standard BKT; pyBKT 1.4.3 EM; num_fits=5; seed=42; no forgetting",
+  "label_rule": "y=1 iff first attempt correct without a hint (Junyi correct field)",
+  "split": "student-disjoint; train <= 80000 rows; test <= 20000 rows; seed=42",
+  "train_sha256": "00648e39a80d4fd2b7e164bb1b52f786d034d5ed0a899af9673cdad31d19a2b6",
+  "test_sha256": "d62b3aae846eabb256b8b6086e79b27c44ce17b293fe14ce55dec840ceeb01f3",
+  "skill_map_sha256": "206e224539fc8a0eff5557482079fabc73508f9c8aa3873ae277acf6dcf61fa9",
+  "borrowed_parameters": {
+    "p_l0": 0.3,
+    "p_t": 0.09,
+    "p_g": 0.1,
+    "p_s": 0.09
+  },
+  "skills": {
+    "S1": {
+      "p_l0": 0.5330407273707688,
+      "p_t": 0.012337401378398803,
+      "p_g": 0.7582074801220638,
+      "p_s": 0.04189457348007014,
+      "junyi_mapping": [
+        {
+          "exercise": "absolute_value",
+          "problem_type": ""
+        },
+        {
+          "exercise": "absolute_values_meaning",
+          "problem_type": ""
+        },
+        {
+          "exercise": "definition_opposite_number",
+          "problem_type": ""
+        },
+        {
+          "exercise": "interpreting_absolute_value",
+          "problem_type": ""
+        },
+        {
+          "exercise": "constructing_and_interpreting_absolute_value",
+          "problem_type": ""
+        },
+        {
+          "exercise": "comparing_absolute_values",
+          "problem_type": ""
+        }
+      ],
+      "n_train_students": 464,
+      "n_train_answers": 14804,
+      "n_test_students": 120,
+      "n_test_answers": 3550,
+      "test_auc": 0.7137740149788342,
+      "test_auc_borrowed": 0.531116396976497,
+      "test_brier": 0.10947627896947727,
+      "test_brier_borrowed": 0.12188718587654461
+    },
+    "S2": {
+      "p_l0": 0.5054330622100732,
+      "p_t": 0.013035815739126077,
+      "p_g": 0.5881944745615003,
+      "p_s": 0.12538284853259454,
+      "junyi_mapping": [
+        {
+          "exercise": "adding_negative_numbers",
+          "problem_type": ""
+        },
+        {
+          "exercise": "adding_and_subtracting_negative_numbers",
+          "problem_type": ""
+        },
+        {
+          "exercise": "number_line_3",
+          "problem_type": ""
+        },
+        {
+          "exercise": "number_line_4",
+          "problem_type": ""
+        },
+        {
+          "exercise": "number_line_0.5",
+          "problem_type": ""
+        },
+        {
+          "exercise": "number_line_0.7",
+          "problem_type": ""
+        }
+      ],
+      "n_train_students": 1310,
+      "n_train_answers": 37075,
+      "n_test_students": 365,
+      "n_test_answers": 9313,
+      "test_auc": 0.6835213287392143,
+      "test_auc_borrowed": 0.5491036514606886,
+      "test_brier": 0.17099655596544808,
+      "test_brier_borrowed": 0.20187266198790377
+    },
+    "S3": {
+      "p_l0": 0.7506097465949425,
+      "p_t": 0.1288898907958927,
+      "p_g": 0.5760836168412753,
+      "p_s": 0.06782246790044391,
+      "junyi_mapping": [
+        {
+          "exercise": "multiplying_and_dividing_negative_numbers",
+          "problem_type": "multiplying"
+        }
+      ],
+      "n_train_students": 357,
+      "n_train_answers": 2737,
+      "n_test_students": 74,
+      "n_test_answers": 705,
+      "test_auc": 0.6253795066413662,
+      "test_auc_borrowed": 0.5784535104364327,
+      "test_brier": 0.09880195808677066,
+      "test_brier_borrowed": 0.1332989255455536
+    },
+    "S4": {
+      "p_l0": 0.45624305892404504,
+      "p_t": 0.04834623276864045,
+      "p_g": 0.329577063519916,
+      "p_s": 0.1863908945948145,
+      "junyi_mapping": [
+        {
+          "exercise": "order_of_operations",
+          "problem_type": ""
+        },
+        {
+          "exercise": "integer_arithmetic",
+          "problem_type": ""
+        },
+        {
+          "exercise": "operations_with_negative_numbers",
+          "problem_type": ""
+        }
+      ],
+      "n_train_students": 509,
+      "n_train_answers": 8332,
+      "n_test_students": 141,
+      "n_test_answers": 2237,
+      "test_auc": 0.7122534541813009,
+      "test_auc_borrowed": 0.7078840236858147,
+      "test_brier": 0.19133891355329405,
+      "test_brier_borrowed": 0.20908038545422872
+    },
+    "S5": {
+      "p_l0": 0.1358825894083178,
+      "p_t": 0.8625292255764138,
+      "p_g": 0.6957855087146158,
+      "p_s": 0.06350116173183254,
+      "junyi_mapping": [
+        {
+          "exercise": "ordering_negative_numbers",
+          "problem_type": ""
+        }
+      ],
+      "n_train_students": 668,
+      "n_train_answers": 8250,
+      "n_test_students": 170,
+      "n_test_answers": 2101,
+      "test_auc": 0.6279742007780516,
+      "test_auc_borrowed": 0.6267978912383244,
+      "test_brier": 0.06741137871551435,
+      "test_brier_borrowed": 0.09163196570734936
+    },
+    "S6": {
+      "p_l0": 0.20897622211542222,
+      "p_t": 0.06697772709754021,
+      "p_g": 0.426827533162051,
+      "p_s": 0.18254853868498092,
+      "junyi_mapping": [
+        {
+          "exercise": "interpreting_negative_numbers",
+          "problem_type": ""
+        },
+        {
+          "exercise": "negative_number_word_problems",
+          "problem_type": ""
+        },
+        {
+          "exercise": "negative_nums_on_num_line_without_reference_to_zero",
+          "problem_type": ""
+        }
+      ],
+      "n_train_students": 309,
+      "n_train_answers": 6046,
+      "n_test_students": 78,
+      "n_test_answers": 1411,
+      "test_auc": 0.680564623660858,
+      "test_auc_borrowed": 0.6601866752494367,
+      "test_brier": 0.20072615073816036,
+      "test_brier_borrowed": 0.22657326626901833
+    },
+    "S7": {
+      "p_l0": 0.7801551825915334,
+      "p_t": 0.08354668636584041,
+      "p_g": 0.5296534704668263,
+      "p_s": 0.09307189278696733,
+      "junyi_mapping": [
+        {
+          "exercise": "multiplying_and_dividing_negative_numbers",
+          "problem_type": "dividing"
+        }
+      ],
+      "n_train_students": 359,
+      "n_train_answers": 2756,
+      "n_test_students": 77,
+      "n_test_answers": 683,
+      "test_auc": 0.6176856714178545,
+      "test_auc_borrowed": 0.5658361705811068,
+      "test_brier": 0.14216978171685346,
+      "test_brier_borrowed": 0.16739410836160187
+    }
+  }
+}
